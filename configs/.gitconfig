@@ -1,0 +1,6 @@
+[user]
+    name = Brian Edelman
+    email = bedelman@bbrpartners.com
+
+[core]
+    excludesfile = ~/.gitignore_global
