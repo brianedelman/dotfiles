@@ -46,15 +46,15 @@ source bootstrap.sh
 ## Customizations
 - **Shell Prompt**: Configured using [Starship](https://starship.rs/). The configuration is stored in `starship.toml`.
 - **Custom Plugins**: Includes custom `zsh` plugins located in the `plugins/` directory.
-- **Python Management**: Uses `pyenv` and `pyenv-virtualenv` for managing Python versions and virtual environments.
+- **Python Management**: Uses `uv` for managing Python versions and virtual environments.
+- **Node Management**: Uses `nvm` for managing node versions
 
 ## Tools Installed via Homebrew
 The following tools are installed via the `Brewfile`:
 - Development tools: `gcc`, `openssl`, `readline`, `sqlite3`, `zlib`, `tcl-tk@8`
 - Shell enhancements: `starship`, `fzf`, `ripgrep`
 - Python tools: `pyenv`, `pyenv-virtualenv`, `poetry`
-- Utilities: `jq`, `httpie`, `pgcli`, `tlrc`
-- Additional tools: `kona`, `rlwrap`
+- Utilities: `jq`, `httpie`, `pgcli`, `tlrc`, `autojump`, `thefuck`
 
 ## How To Update Fork
 1. Ensure the upstream remote exists:

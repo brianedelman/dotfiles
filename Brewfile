@@ -11,6 +11,7 @@ brew "tmux"
 brew "starship"
 
 brew "uv"
+brew "node"
 brew "nvm"
 
 brew "fzf"
