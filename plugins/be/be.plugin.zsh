@@ -68,7 +68,8 @@ be_git_work_log(){
 }
 
 # Aliases
-alias be_pyact='source .venv/bin/activate'
-alias be_pydeact='deactivate'
+alias workon='source .venv/bin/activate'  # can be deactivated with "deactivate"
+alias mrp='python manage.py runserver'
 
 alias fed="vim ~/.zshrc"
+alias gs="git status"

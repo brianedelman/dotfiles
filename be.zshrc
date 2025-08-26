@@ -96,8 +96,6 @@ plugins=(
   history
   aliases
   autojump
-  zsh-syntax-highlighting
-  you-should-use
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -114,9 +112,9 @@ export GIT_COMMIT_AUTHOR="Brian Edelman <bedelman@bbrpartners.com>"
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='nano'
+  export EDITOR='vim'
  else
-  export EDITOR='nano'
+  export EDITOR='vim'
 fi
 
 # Ensure that the shell is set to zsh
@@ -152,3 +150,6 @@ eval "$(direnv hook zsh)"
 
 ZSH_AUTO_SUGGEST_HIGHLIGHT="fg=#1c1c1c,bg=#d0d0d0,bold,underline"
 bindkey '^ ' autosuggest-accept
+
+# Make sure uv-installed binaries are available
+export PATH="$HOME/.local/bin:$PATH"
