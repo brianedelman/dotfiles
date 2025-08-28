@@ -83,12 +83,6 @@ cp -f ./configs/direnv.toml $HOME/.config/direnv/direnv.toml
 mkdir -p $HOME/.config/tlrc
 cp -f ./configs/tlrc.toml $HOME/.config/tlrc/config.toml
 
-# Add snowflake toml
-mkdir -p $HOME/.snowflake
-cp -f ./configs/snowflake.toml $HOME/.snowflake/config.toml
-chmod 0600 $HOME/.snowflake/config.toml
-snow --install-completion
-
 # Add .gitconfig
 cp -f ./configs/.gitconfig $HOME/.gitconfig
 
