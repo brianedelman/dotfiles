@@ -13,7 +13,7 @@ brew "starship"
 
 brew "uv"
 brew "node"
-brew "nvm"
+brew "fnm"
 
 brew "fzf"
 brew "jq"

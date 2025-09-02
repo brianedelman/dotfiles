@@ -73,3 +73,5 @@ alias mrp='python manage.py runserver'
 
 alias fed="vim ~/.zshrc"
 alias gs="git status"
+
+eval $(thefuck --alias)
