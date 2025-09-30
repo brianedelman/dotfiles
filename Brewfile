@@ -37,3 +37,4 @@ brew "azure-cli"
 
 brew "autojump" # jump to a dir with `j nameofdir`
 brew "thefuck" # redo a fubmled command
+brew "just" # makefile alternative
