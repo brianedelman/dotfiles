@@ -75,3 +75,4 @@ alias fed="vim ~/.zshrc"
 alias gs="git status"
 
 eval $(thefuck --alias)
+

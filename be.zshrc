@@ -145,11 +145,9 @@ eval "$(starship init zsh)"
 #fzf
 source <(fzf --zsh)
 
-# direnv
-eval "$(direnv hook zsh)"
-
 ZSH_AUTO_SUGGEST_HIGHLIGHT="fg=#1c1c1c,bg=#d0d0d0,bold,underline"
 bindkey '^ ' autosuggest-accept
 
 # Make sure uv-installed binaries are available
 export PATH="$HOME/.local/bin:$PATH"
+

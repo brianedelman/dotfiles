@@ -22,7 +22,6 @@ brew "httpie"
 brew "pgcli"
 brew "tlrc"
 brew "ripgrep"
-brew "direnv"
 brew "gh"
 brew "ncdu"
 
